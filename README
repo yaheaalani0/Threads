@@ -1,14 +1,17 @@
+```
 # Forum Projekt
 
-## Kort beskrivning
+## Beskrivning
+Detta projekt är ett webbforum där användare kan skapa diskussionstrådar, läsa trådar och svara på inlägg. 
 
-Detta projekt är ett webbforum där användare kan skapa diskussionstrådar, läsa trådar och svara på inlägg. Backend är byggd med Node.js och Express, medan frontenden är utvecklad med React och Material-UI.
+- **Backend:** Node.js & Express 
+- **Frontend:** React & Material-UI
+- **Databas:** (Lägg till om relevant)
 
-## Installationsinstruktioner
+## Installation
 
 ### Backend
-
-1. Navigera till backend-mappen:
+1. Gå till backend-mappen:
    ```bash
    cd backend
    ```
@@ -20,11 +23,10 @@ Detta projekt är ett webbforum där användare kan skapa diskussionstrådar, l�
    ```bash
    npm start
    ```
-   (Servern körs vanligtvis på [http://localhost:3001](http://localhost:3001))
+   Servern körs vanligtvis på [http://localhost:3001](http://localhost:3001).
 
 ### Frontend
-
-1. Navigera till frontend-mappen:
+1. Gå till frontend-mappen:
    ```bash
    cd frontend
    ```
@@ -36,10 +38,13 @@ Detta projekt är ett webbforum där användare kan skapa diskussionstrådar, l�
    ```bash
    npm run dev
    ```
-   (Applikationen är oftast tillgänglig på [http://localhost:5173](http://localhost:5173))
+   Applikationen är oftast tillgänglig på [http://localhost:5173](http://localhost:5173).
 
-## Övrig information
+## Funktioner
+- Skapa, läsa och svara på inlägg
+- API-hantering för trådar och kommentarer
+- Responsivt användargränssnitt med Material-UI
 
-- Backend hanterar API-anrop för tråd- och kommentarshantering.
-- Frontend använder Material-UI för ett modernt och responsivt gränssnitt.
-
+## Övrigt
+Lägg till information om miljövariabler, databasinställningar eller andra beroenden om det behövs.
+```
