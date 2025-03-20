@@ -6,7 +6,7 @@ Detta projekt är ett webbforum där användare kan skapa diskussionstrådar, l�
 
 - **Backend:** Node.js & Express 
 - **Frontend:** React & Material-UI
-- **Databas:** (Lägg till om relevant)
+- **Databas:** SQLite
 
 ## Installation
 
@@ -45,6 +45,5 @@ Detta projekt är ett webbforum där användare kan skapa diskussionstrådar, l�
 - API-hantering för trådar och kommentarer
 - Responsivt användargränssnitt med Material-UI
 
-## Övrigt
-Lägg till information om miljövariabler, databasinställningar eller andra beroenden om det behövs.
+
 
